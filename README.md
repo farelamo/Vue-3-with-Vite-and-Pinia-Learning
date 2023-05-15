@@ -1,7 +1,28 @@
-# Vue 3 + Vite
+# Vue 3 + Vite + Pinia
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is my learning about using vue with pinia for state management. According to the pinia website official, this state management **extremely light** than vuex. Using the pinia is simple, there is no more called mutations for life cycle of state management like vuex. It's just about state, getters and actions. For any further information, we can visit the documentation of pinia in https://pinia.vuejs.org/
+# Running the project
+1. ```yarn``` or ```yarn install```
 
-## Recommended IDE Setup
+2. then, just running with ```yarn dev```
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+# Follow this step if U want to build from beginning
+1. Create Project
+```
+yar create vite <project-name> --template-vue
+```
+
+2. Install dependecies with yarn
+```
+yarn
+```
+
+3. Add pinia to the project
+```
+yarn add pinia
+```
+
+4. Run the project
+```
+yarn dev
+```
